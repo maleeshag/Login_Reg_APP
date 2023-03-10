@@ -30,7 +30,8 @@ export default function Password(){
             <Toaster position='top-center' reverseOrder={false}></Toaster> 
 
             <div className='flex justify-center items-center h-screen'>
-                <div className={styles.glass}>
+                <div className={styles.glass} style={{width:"50%"}}>
+
                     <div className='title flex flex-col items-center'>
                         <h4 className='text-4xl font-bold'>Reset</h4>
                         <span className='py-4 text-xl w-2/3 text-center'>
@@ -43,7 +44,7 @@ export default function Password(){
                         <div className='textbox flex flex-col items-center gap-6'>
                                 <input {...formik.getFieldProps('password')} type="password" className={styles.textbox} placeholder='password'></input>
                                 <input {...formik.getFieldProps('password')} type="confirm_pwd" className={styles.textbox} placeholder='consfirm password'></input>
-                                <button type='submit' className={styles.btn}>Recovery</button>
+                                <button type='submit' className={styles.btn}>Reset</button>
                         </div>
                     </form>
                 </div>

@@ -24,3 +24,7 @@
     height:30px;
 }
 
+input[type='file']{
+    display:none;
+}
+
