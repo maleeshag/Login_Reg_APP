@@ -5,6 +5,7 @@ export async function usernameValidate(values){
     const errors=usernameVerify({},values);
     return errors;
 }
+
 /*validate password*/
 export async function passwordValidate(values){
     const errors=passwordVerify({},values);
@@ -15,7 +16,7 @@ export async function passwordValidate(values){
 
 /**validate register form  */
 export async function registerValidation(values){
-    const errors =usernmaeVerify({},values);
+    const errors =usernameVerify({},values);
     passwordVerify(errors,values);
     emailVerify(errors,values);
 
