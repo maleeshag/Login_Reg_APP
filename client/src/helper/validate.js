@@ -39,6 +39,12 @@ export async function resetPasswordValidation(values){
 }
 
 
+/**validate profile page */
+export async function profileValidation(values){
+    const errors = emailVerify({},values);
+    return errors;
+}
+
 /******************************************** */
 
 
