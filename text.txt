@@ -6,3 +6,4 @@ server
 npm init -y   :initialize the server as a node package
 npm i express cors mongoose mongodb-memory-server multer nodemon
 npm i morgan
+npm i bcrypt  :to enable hashed password
