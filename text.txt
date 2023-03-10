@@ -1,2 +1,8 @@
 npm i react-router-dom
 npm i formik react-hot-toast
+
+
+server
+npm init -y   :initialize the server as a node package
+npm i express cors mongoose mongodb-memory-server multer nodemon
+npm i morgan
